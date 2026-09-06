@@ -39,15 +39,18 @@
     height: 100%;
     padding: 30px;
     box-sizing: border-box;
-    border-radius: 20px;
-
+    border-radius: 20px; 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     text-align: center;
     background-color: var(--fundo-divInformacao);
+}
+
+.divInformacao:hover{
+    animation-name: sobeDesce;
+    animation-duration: 0.7s;
 }
 
 .divInformacao h3,
@@ -105,4 +108,20 @@
 .cardVideo p{
     color: var(--cor-title);
     font-size: 14px;
+}
+
+@keyframes sobeDesce {
+    0%{
+        height: 25%;
+    }
+    25%{
+        height: 50%;
+    }
+    50%{
+        height: 75%;
+    }
+    75%{
+        height: 100%;
+    }
+
 }
