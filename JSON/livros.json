@@ -1,3 +1,40 @@
 {
-    
+"livros": [
+{
+"capa": "https://covers.openlibrary.org/b/isbn/9788573255690-L.jpg",
+"nome": "O Peregrino",
+"descricao": "Uma alegoria cristã que acompanha a jornada de Cristão em direção à Cidade Celestial, enfrentando desafios e tentações pelo caminho.",
+"categoria": "romance"
+},
+{
+"capa": "https://covers.openlibrary.org/b/isbn/9780064404990-L.jpg",
+"nome": "As Crônicas de Nárnia",
+"descricao": "Fantasia de C. S. Lewis com profundas referências e temas cristãos, acompanhando crianças em suas aventuras no mundo de Nárnia.",
+"categoria": "romance"
+},
+{
+"capa": "https://covers.openlibrary.org/b/isbn/9780060652937-L.jpg",
+"nome": "Cristianismo Puro e Simples",
+"descricao": "C. S. Lewis apresenta reflexões sobre a fé cristã, seus fundamentos e sua relação com a vida cotidiana.",
+"categoria": "biografia"
+},
+{
+"capa": "https://covers.openlibrary.org/b/isbn/9780143106369-L.jpg",
+"nome": "Confissões",
+"descricao": "Relato espiritual e autobiográfico de Santo Agostinho, apresentando sua trajetória de vida e sua conversão ao cristianismo.",
+"categoria": "biografia"
+},
+{
+"capa": "https://covers.openlibrary.org/b/isbn/9780140424723-L.jpg",
+"nome": "Poemas",
+"descricao": "Coletânea de poesias de George Herbert, poeta cristão conhecido por seus versos sobre fé, devoção e espiritualidade.",
+"categoria": "poesia"
+},
+{
+"capa": "https://covers.openlibrary.org/b/isbn/9780679738265-L.jpg",
+"nome": "Sonetos Sacros",
+"descricao": "Poemas de John Donne que exploram temas como fé, pecado, morte, redenção e relacionamento com Deus.",
+"categoria": "poesia"
+}
+]
 }

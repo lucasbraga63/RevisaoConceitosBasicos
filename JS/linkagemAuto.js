@@ -12,6 +12,7 @@ function linkarGeral() {
 function linkarHome() {
     head.insertAdjacentHTML('beforeend', '<link rel="stylesheet" href="CSS/home.css">')
     head.insertAdjacentHTML('beforeend', '<link rel="stylesheet" href="CSS/card.css">')
+    
 
     const script = document.createElement('script');
     script.src = "JS/gerarCard.js";
@@ -22,6 +23,11 @@ function linkarHome() {
     scriptVideo.src = "JS/gerarCardVideo.js";
     scriptVideo.defer = true;
     head.appendChild(scriptVideo);
+
+     const scriptHome = document.createElement('script');
+    scriptHome.src = "JS/home.js";
+    scriptHome.defer = true;
+    head.appendChild(scriptHome);
 }
 
 linkarHome();
