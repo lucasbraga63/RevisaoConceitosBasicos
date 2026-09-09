@@ -10,13 +10,21 @@ fetch("JSON/livros.json")
         : dados.livros.filter(livro => livro.categoria === categoria);
 
       containerProjetos.innerHTML = livrosFiltrados.map(livro => `
-        <div class="cardProjeto">
-          <img src="${livro.capa}" alt="Capa de ${livro.nome}">
-          <h3>${livro.nome}</h3>
-          <p>${livro.descricao}</p>
-          <span>${livro.categoria}</span>
-        </div>
-      `).join('');
+         <div class="cardProjeto">
+                    <div class="capa">
+                        <img src="${livro.capa}" alt="Capa de ${livro.nome}">
+                    </div>
+                    <div class="informacoesGerais">
+                        <div class="informacoes">
+                            <h3>${livro.nome}</h3>
+                            <p>${livro.descricao}</p>
+                        </div>
+                        <div class="categorias">
+                            <span>${livro.categoria}</span>
+                        </div>
+                    </div>
+                </div>
+      `).join(''); 
     }
 
     criarCards();

@@ -44,7 +44,8 @@
 }
 
 .sessaoCardsInformativos,
-.sessaovideoloop {
+.sessaovideoloop, 
+.GaleriaProjetos{
     width: 90%;
     min-height: 100px;
     display: flex;
@@ -70,7 +71,8 @@
 }
 
 .containerCards,
-.containerVideos {
+.containerVideos,
+.containerProjetos {
     width: 100%;
     padding: 20px;
     min-height: 100px;
@@ -80,6 +82,16 @@
     justify-content: center;
     align-items: center;
 }
+
+.GaleriaProjetos .botoes{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+
 @media (max-width: 768px){
    .divEscura{
     justify-content: center;
