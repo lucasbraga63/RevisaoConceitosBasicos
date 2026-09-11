@@ -2,11 +2,17 @@ const head = document.querySelector('head')
 
 function linkarGeral() {
     head.insertAdjacentHTML('beforeend', `<link rel="stylesheet" href="CSS/menu.css">`);
+     head.insertAdjacentHTML('beforeend', `<link rel="stylesheet" href="CSS/footer.css">`);
 
     const script = document.createElement('script');
     script.src = "JS/gerarMenuGeral.js";
     script.defer = true;
     head.appendChild(script);
+
+    const scriptFooter = document.createElement('script');
+    scriptFooter.src = "JS/gerarfooterGeral.js";
+    scriptFooter.defer = true;
+    head.appendChild(scriptFooter);
 };
 
 function linkarHome() {
